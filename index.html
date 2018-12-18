@@ -32,11 +32,28 @@ body {
   }
 }
 
+form {
+    /* float: none !important; */
+    position: relative;
+    margin: 0 auto;
+    margin-top: 150px;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    form {
+    /* float: none !important; */
+    position: relative;
+    margin: 0 auto;
+    margin-top: 275px;
+    }
+}
 
 .center-me {
     float: none !important;
     margin: 0 auto !important;
     text-align: center !important;
+
 }
 
 .row { 
@@ -49,32 +66,33 @@ body {
         <div class="row"></div>
         
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4 center-me">
-                <h1 style="font-family: Dancing Script, cursive; font-size: 50px; 
+            
+            <div class="col-12 center-me">
+                <h1 style="font-family: Dancing Script, cursive; font-size: 65px; 
                 text-shadow: 2px 2px 5px rgb(204, 203, 203);">
                 <strong>Timmons Wedding</strong></h1>
             </div>
-            <div class="col-6"></div>
+            
             <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4 center-me">
-                <p class="center-me">Bobby is currently working on this site! Please sign up for our
+                    
+                    <div class="col-12">
+                <p class="center-me" style="font-family: Dancing Script, cursive; font-size: 45px; 
+                text-shadow: 2px 2px 5px rgb(204, 203, 203);"><strong>Bobby is currently working on this site! Please sign up for our
                     mailing list to be notified in January when the site is up! (Along
-                    with more information!!)
+                    with more information!!)</strong>
                 </p>
             </div>
-            <div class="col-6"></div>
+            
             </div>
-            <div class="row" style="margin-top: 55px;">
-                    <div class="col-6 center-me"></div>
+                <div class="col-12 center-me">
                     <form action="https://formspree.io/teamtimmonswedding@yahoo.com" method="POST">
                         <input type="email" name="_replyto" placeholder="email@example.net">
                         <input type="submit" value="Notify Me!">
                       </form>
                 </div>
-                <div class="col-6"></div>
-            </div>
+                    
+               
+            
     
     </div>
 
